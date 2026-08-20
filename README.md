@@ -24,7 +24,7 @@
 
 <h3><code>HAZURE@github ~ $ ./links.sh</code></h3>
 
-<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
+<p><b>Automation Developer · AI Agent Builder · Rookie</b></p>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-HAZURE222.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)]()
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-RaphaelDias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raphael-dias-081836345/)
