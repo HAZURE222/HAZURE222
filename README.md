@@ -27,8 +27,8 @@
 <p><b>Fullstack Developer · AI Builder · Instructor</b></p>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-HAZURE222.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)]()
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-avivashishta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raphael-dias-081836345/)
-[![Instagram](https://img.shields.io/badge/Instagram-avi__vashishta29-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/036donascimento/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Raphael Dias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raphael-dias-081836345/)
+[![Instagram](https://img.shields.io/badge/Instagram-036donascimento-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/036donascimento/)
 
 <br>
 
