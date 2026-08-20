@@ -22,15 +22,12 @@
 <!-- animated contribution graph: real data, boxes reveal cell by cell
      (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-<br>
-<br>
-
 <h3><code>HAZURE@github ~ $ ./links.sh</code></h3>
 
 <p><b>Automation Developer · AI Builder · Rookieb></p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-avivashishta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raphael-dias-081836345/)
-[![Instagram](https://img.shields.io/badge/Instagram-avi__vashishta29-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/036donascimento/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Raphael_Dias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raphael-dias-081836345/)
+[![Instagram](https://img.shields.io/badge/Instagram-036donascimento-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/036donascimento/)
 
 <br>
 
