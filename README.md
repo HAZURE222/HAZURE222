@@ -16,8 +16,7 @@
 </tr>
 </table>
 
-<br>
-<br>
+
 | Category            | Used Tools & Technologies                                                                                                                     |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------|
 | **Frameworks**      | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=white) ![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white) |
