@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./docs/readme-assets/logo.svg" alt="Raphael - Automation Engineer" width="240" />
+  <img src="./docs/readme/logo.svg" alt="Raphael - Automation Engineer" width="240" />
   <h1>Raphael</h1>
   <p><strong>Self-directed builder focused on automation, scalability, and intelligent solutions</strong></p>
   <p>
