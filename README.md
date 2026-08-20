@@ -24,7 +24,7 @@
 
 <h3><code>HAZURE@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="HAZURE's GitHub contribution graph — auto-refreshed daily" />
+<img src="./contrib-heatmap.svg" width="490" alt="HAZURE's GitHub contribution graph — auto-refreshed daily" />
 
 <br>
 <br>
