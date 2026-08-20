@@ -1,0 +1,41 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle for logo safety -->
+  <circle cx="256" cy="256" r="240" fill="none"/>
+
+  <!-- Terminal window frame (automation symbol) -->
+  <rect x="120" y="100" width="272" height="260" rx="12" fill="none" stroke="url(#logoGrad)" stroke-width="16"/>
+  
+  <!-- Title bar -->
+  <rect x="120" y="100" width="272" height="50" rx="12" fill="url(#logoGrad)" opacity="0.15" stroke="url(#logoGrad)" stroke-width="16"/>
+  
+  <!-- Traffic lights -->
+  <circle cx="160" cy="130" r="7" fill="#ff5f57"/>
+  <circle cx="190" cy="130" r="7" fill="#febc2e"/>
+  <circle cx="220" cy="130" r="7" fill="#28c940"/>
+  
+  <!-- Terminal content - prompt and glyph -->
+  <g font-family="'Courier New', monospace" font-size="28" font-weight="bold" fill="url(#logoGrad)">
+    <!-- Prompt indicator -->
+    <text x="150" y="220">$</text>
+    
+    <!-- Automation spark (↗) -->
+    <text x="200" y="220">⚡</text>
+    
+    <!-- Code brackets representing build -->
+    <text x="270" y="220">&lt;&gt;</text>
+  </g>
+  
+  <!-- Bottom accent line (workflow arrow) -->
+  <line x1="150" y1="330" x2="362" y2="330" stroke="url(#logoGrad)" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Dot indicators (progress) -->
+  <circle cx="380" cy="330" r="5" fill="url(#logoGrad)" opacity="0.8"/>
+  <circle cx="405" cy="330" r="5" fill="url(#logoGrad)" opacity="0.5"/>
+</svg>
