@@ -1,293 +1,237 @@
 <div align="center">
 
-<!-- HERO SECTION WITH ANIMATED SVG -->
-<svg width="100%" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border-radius: 12px; margin-bottom: 20px;">
+<svg width="100%" height="180" viewBox="0 0 1000 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      @keyframes floatIn { 
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-      @keyframes glow {
-        0%, 100% { filter: drop-shadow(0 0 8px #0ea5e9); }
-        50% { filter: drop-shadow(0 0 16px #06b6d4); }
-      }
-      @keyframes slideText {
-        from { opacity: 0; transform: translateX(-20px); }
-        to { opacity: 1; transform: translateX(0); }
-      }
-      .hero-title { font: bold 48px 'Courier New', monospace; fill: #e0f2fe; animation: floatIn 0.8s ease-out; }
-      .hero-subtitle { font: 18px 'Courier New', monospace; fill: #7dd3fc; animation: slideText 1s ease-out 0.3s backwards; }
-      .hero-accent { font: 16px 'Courier New', monospace; fill: #06b6d4; animation: slideText 1s ease-out 0.6s backwards; letter-spacing: 2px; }
-      .glow-element { animation: glow 3s ease-in-out infinite; }
-    </style>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.1" />
+    </linearGradient>
   </defs>
   
-  <!-- Background grid -->
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
-  </pattern>
-  <rect width="1000" height="200" fill="url(#grid)" opacity="0.2"/>
+  <rect width="1000" height="180" fill="url(#heroGrad)" stroke="#0ea5e9" stroke-width="2"/>
   
-  <!-- Content -->
-  <g>
-    <!-- Left accent -->
-    <rect x="20" y="40" width="4" height="120" fill="#0ea5e9" opacity="0.6"/>
-    
-    <!-- Main text -->
-    <text x="50" y="80" class="hero-title">> RAPHAEL</text>
-    <text x="50" y="115" class="hero-subtitle">// Builder • Developer • Automation Engineer</text>
-    <text x="50" y="145" class="hero-accent">>>> Self-directed • Always Learning • Always Building</text>
-    
-    <!-- Right accent elements -->
-    <circle cx="900" cy="50" r="25" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.4" class="glow-element"/>
-    <circle cx="920" cy="100" r="15" fill="none" stroke="#0ea5e9" stroke-width="2" opacity="0.3" class="glow-element" style="animation-delay: 0.5s"/>
-  </g>
+  <text x="50" y="60" font-family="'Courier New', monospace" font-size="52" font-weight="bold" fill="#0ea5e9">> RAPHAEL</text>
+  <text x="50" y="95" font-family="'Courier New', monospace" font-size="18" fill="#06b6d4">// Builder • Developer • Automation Engineer</text>
+  <text x="50" y="125" font-family="'Courier New', monospace" font-size="14" fill="#7dd3fc">Self-directed developer focused on automation, scalability & intelligent solutions</text>
+  
+  <line x1="50" y1="140" x2="950" y2="140" stroke="#0ea5e9" stroke-width="1" opacity="0.3"/>
+  
+  <text x="50" y="165" font-family="'Courier New', monospace" font-size="12" fill="#cbd5e1">📍 Guarulhos, SP • 🎓 Técnico em Dev • 🚀 Estagiário GRU • 17 anos</text>
 </svg>
 
 ---
 
-### 🎯 Quem Sou Eu?
+</div>
 
-**Builder autodirigido** apaixonado por criar soluções inteligentes e interfaces inovadoras. Atualmente trabalhando como **Responsável por Backlogs no Aeroporto GRU**, desenvolvendo automação crítica que impacta operações reais.
+## 🎯 Quem Sou
 
-<table>
-<tr>
-<td width="50%">
+**Builder autodirigido** apaixonado por criar soluções inteligentes que resolvem problemas reais. Atualmente trabalhando como **Responsável por Backlogs no Aeroporto GRU**, desenvolvendo automação crítica em Python e Bash.
 
-#### 💼 Experiência
-- Automação de processos em Python/Bash
-- Desenvolvedor full-stack (Web + Mobile)
-- Mentoria técnica e liderança
-
-</td>
-<td width="50%">
-
-#### 🎓 Formação
-- Técnico em Desenvolvimento de Sistemas (cursando)
-- Inglês Avançado + Espanhol Básico
-- Treinamento Militar (Elite Chacal)
-
-</td>
-</tr>
-</table>
+Combino experiência técnica com mentalidade de aprendizado contínuo — sempre explorando novas tecnologias, sempre construindo algo.
 
 ---
 
 ## 🚀 Projetos em Destaque
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 30px 0;">
-
-### 🤖 J.A.R.V.I.S
-**Personal Automation Ecosystem**
-
-```
-Status: Em evolução
-Arquitetura: Microserviços descentralizados
-```
-
-✅ Bot WhatsApp + IA  
-✅ Dashboard HUD (Cyan-on-Black)  
-✅ Voice Commander (Web Speech API)  
-✅ Integração Remote Desktop  
-✅ Protocolo M.A.C (Multi-Access Control)  
-
-[→ Ver Projeto](#)
-
----
-
-### 📈 Bot Trading Multi-Plataforma
-**Análise Técnica Automática**
-
-```
-Plataformas: Exnova & IQ Option
-Ativos: 5 operações simultâneas
-```
-
-📊 Análise técnica em tempo real  
-💱 Detecção de padrões  
-🔄 Gerenciamento de risco avançado  
-📧 Relatórios automáticos  
-
-[→ Ver Projeto](#)
-
----
-
-### 📧 Automação Email GRU
-**Solução Crítica Aeroportuária**
-
-```
-Escopo: Aeroporto Internacional
-Impacto: Processamento de massa
-```
-
-🗂️ Gerenciamento de backlogs  
-📊 Relatórios automáticos  
-⚙️ Integração com sistemas legados  
-💼 Zero downtime  
-
-[→ Ver Projeto](#)
-
----
-
-### 🔍 Script Busca Vagas
-**Automação de Oportunidades**
-
-```
-Foco: Remoto/Guarulhos-SP
-Tipo: Dev de Sistemas
-```
-
-🤖 Web scraping inteligente  
-📍 Filtros geográficos  
-💡 Notificações em tempo real  
-
-[→ Ver Projeto](#)
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<svg width="100%" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border-radius: 12px; margin: 20px 0;">
+<svg width="100%" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      .tech-card { animation: floatIn 0.8s ease-out backwards; }
-      .tech-card:nth-child(1) { animation-delay: 0.1s; }
-      .tech-card:nth-child(2) { animation-delay: 0.2s; }
-      .tech-card:nth-child(3) { animation-delay: 0.3s; }
-      .tech-card:nth-child(4) { animation-delay: 0.4s; }
-      .tech-card:nth-child(5) { animation-delay: 0.5s; }
-      .tech-title { font: bold 14px 'Courier New', monospace; fill: #0ea5e9; }
-      .tech-item { font: 12px 'Courier New', monospace; fill: #cbd5e1; }
-      .tech-border { stroke: #0ea5e9; stroke-width: 2; fill: none; opacity: 0.3; }
-    </style>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.05" />
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.05" />
+    </linearGradient>
   </defs>
 
-  <!-- Grid -->
-  <pattern id="tech-grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
-  </pattern>
-  <rect width="1000" height="280" fill="url(#tech-grid)" opacity="0.2"/>
+  <!-- J.A.R.V.I.S -->
+  <rect x="20" y="20" width="220" height="280" fill="url(#cardGrad1)" stroke="#0ea5e9" stroke-width="2" rx="8"/>
+  <text x="40" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#0ea5e9">🤖 J.A.R.V.I.S</text>
+  <text x="40" y="75" font-family="'Courier New', monospace" font-size="12" fill="#cbd5e1">Personal Automation</text>
+  <text x="40" y="95" font-family="'Courier New', monospace" font-size="11" fill="#64748b">✅ WhatsApp Bot + IA</text>
+  <text x="40" y="115" font-family="'Courier New', monospace" font-size="11" fill="#64748b">✅ Dashboard HUD</text>
+  <text x="40" y="135" font-family="'Courier New', monospace" font-size="11" fill="#64748b">✅ Voice Commander</text>
+  <text x="40" y="155" font-family="'Courier New', monospace" font-size="11" fill="#64748b">✅ Remote Desktop</text>
+  <text x="40" y="175" font-family="'Courier New', monospace" font-size="11" fill="#64748b">✅ Multi-Access Control</text>
+  <rect x="40" y="200" width="160" height="4" fill="#0ea5e9" opacity="0.3"/>
+  <text x="40" y="230" font-family="'Courier New', monospace" font-size="10" fill="#0ea5e9" font-weight="bold">Status: Em Evolução</text>
+  <text x="40" y="250" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Tech: Python, Node.js</text>
+  <text x="40" y="270" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Arch: Microserviços</text>
+  <text x="40" y="290" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Repo: github.com/HAZURE222</text>
 
-  <!-- Languages -->
-  <g class="tech-card">
-    <rect x="20" y="20" width="180" height="120" rx="8" class="tech-border"/>
-    <text x="40" y="45" class="tech-title">► Languages</text>
-    <text x="40" y="70" class="tech-item">• Python (Primary)</text>
-    <text x="40" y="90" class="tech-item">• JavaScript/Node.js</text>
-    <text x="40" y="110" class="tech-item">• Bash/Shell Script</text>
-    <text x="40" y="130" class="tech-item">• HTML/CSS</text>
-  </g>
+  <!-- Bot Trading -->
+  <rect x="280" y="20" width="220" height="280" fill="url(#cardGrad2)" stroke="#06b6d4" stroke-width="2" rx="8"/>
+  <text x="300" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#06b6d4">📈 Bot Trading</text>
+  <text x="300" y="75" font-family="'Courier New', monospace" font-size="12" fill="#cbd5e1">Análise Automática</text>
+  <text x="300" y="95" font-family="'Courier New', monospace" font-size="11" fill="#64748b">📊 Análise técnica real-time</text>
+  <text x="300" y="115" font-family="'Courier New', monospace" font-size="11" fill="#64748b">💱 5 ativos simultâneos</text>
+  <text x="300" y="135" font-family="'Courier New', monospace" font-size="11" fill="#64748b">🔄 Exnova & IQ Option</text>
+  <text x="300" y="155" font-family="'Courier New', monospace" font-size="11" fill="#64748b">🎯 Detecção de padrões</text>
+  <text x="300" y="175" font-family="'Courier New', monospace" font-size="11" fill="#64748b">📈 Gerenc. de risco</text>
+  <rect x="300" y="200" width="160" height="4" fill="#06b6d4" opacity="0.3"/>
+  <text x="300" y="230" font-family="'Courier New', monospace" font-size="10" fill="#06b6d4" font-weight="bold">Status: Operacional</text>
+  <text x="300" y="250" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Tech: Python, APIs</text>
+  <text x="300" y="270" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Deploy: Cloud-ready</text>
+  <text x="300" y="290" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Impacto: Produção</text>
 
-  <!-- Frameworks -->
-  <g class="tech-card">
-    <rect x="220" y="20" width="180" height="120" rx="8" class="tech-border"/>
-    <text x="240" y="45" class="tech-title">► Frameworks</text>
-    <text x="240" y="70" class="tech-item">• Express.js</text>
-    <text x="240" y="90" class="tech-item">• Next.js</text>
-    <text x="240" y="110" class="tech-item">• Flask</text>
-    <text x="240" y="130" class="tech-item">• React</text>
-  </g>
+  <!-- Email Automation -->
+  <rect x="540" y="20" width="220" height="280" fill="url(#cardGrad1)" stroke="#0ea5e9" stroke-width="2" rx="8"/>
+  <text x="560" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#0ea5e9">📧 Email GRU</text>
+  <text x="560" y="75" font-family="'Courier New', monospace" font-size="12" fill="#cbd5e1">Automação Crítica</text>
+  <text x="560" y="95" font-family="'Courier New', monospace" font-size="11" fill="#64748b">🗂️ Gerenc. backlogs</text>
+  <text x="560" y="115" font-family="'Courier New', monospace" font-size="11" fill="#64748b">📊 Relatórios auto</text>
+  <text x="560" y="135" font-family="'Courier New', monospace" font-size="11" fill="#64748b">⚙️ Integração legado</text>
+  <text x="560" y="155" font-family="'Courier New', monospace" font-size="11" fill="#64748b">💼 Zero downtime</text>
+  <text x="560" y="175" font-family="'Courier New', monospace" font-size="11" fill="#64748b">🚀 Escalável</text>
+  <rect x="560" y="200" width="160" height="4" fill="#0ea5e9" opacity="0.3"/>
+  <text x="560" y="230" font-family="'Courier New', monospace" font-size="10" fill="#0ea5e9" font-weight="bold">Status: Produção</text>
+  <text x="560" y="250" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Tech: Python, Bash</text>
+  <text x="560" y="270" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Local: Aeroporto GRU</text>
+  <text x="560" y="290" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Impacto: Operacional</text>
 
-  <!-- Databases -->
-  <g class="tech-card">
-    <rect x="420" y="20" width="180" height="120" rx="8" class="tech-border"/>
-    <text x="440" y="45" class="tech-title">► Databases</text>
-    <text x="440" y="70" class="tech-item">• MongoDB</text>
-    <text x="440" y="90" class="tech-item">• Firebase</text>
-    <text x="440" y="110" class="tech-item">• PostgreSQL</text>
-    <text x="440" y="130" class="tech-item">• Redis</text>
-  </g>
-
-  <!-- Tools -->
-  <g class="tech-card">
-    <rect x="620" y="20" width="180" height="120" rx="8" class="tech-border"/>
-    <text x="640" y="45" class="tech-title">► Tools</text>
-    <text x="640" y="70" class="tech-item">• Git/GitHub/GitLab</text>
-    <text x="640" y="90" class="tech-item">• Docker</text>
-    <text x="640" y="110" class="tech-item">• Linux (Arch/Ubuntu)</text>
-    <text x="640" y="130" class="tech-item">• VS Code</text>
-  </g>
-
-  <!-- Platforms -->
-  <g class="tech-card">
-    <rect x="820" y="20" width="160" height="120" rx="8" class="tech-border"/>
-    <text x="840" y="45" class="tech-title">► Platforms</text>
-    <text x="840" y="70" class="tech-item">• Android (Termux)</text>
-    <text x="840" y="90" class="tech-item">• Windows/Linux</text>
-    <text x="840" y="110" class="tech-item">• Web (Full-stack)</text>
-    <text x="840" y="130" class="tech-item">• Mobile</text>
-  </g>
-
-  <!-- Bottom row - Special Skills -->
-  <g class="tech-card" style="animation-delay: 0.6s">
-    <rect x="20" y="160" width="960" height="100" rx="8" class="tech-border"/>
-    <text x="40" y="185" class="tech-title">► Specialized Skills</text>
-    <text x="40" y="210" class="tech-item">🤖 AI/Machine Learning  •  ⚙️ Automação & Scripting  •  🔐 Segurança  •  🏗️ Arquitetura</text>
-    <text x="40" y="235" class="tech-item">📊 Data Analysis  •  🎯 Problem Solving  •  👥 Mentoria  •  🚀 DevOps Basics</text>
-  </g>
+  <!-- Busca Vagas -->
+  <rect x="800" y="20" width="180" height="280" fill="url(#cardGrad2)" stroke="#06b6d4" stroke-width="2" rx="8"/>
+  <text x="820" y="50" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#06b6d4">🔍 Job Search</text>
+  <text x="820" y="75" font-family="'Courier New', monospace" font-size="12" fill="#cbd5e1">Web Scraping</text>
+  <text x="820" y="95" font-family="'Courier New', monospace" font-size="11" fill="#64748b">🤖 Automação script</text>
+  <text x="820" y="115" font-family="'Courier New', monospace" font-size="11" fill="#64748b">📍 Remoto/Guarulhos</text>
+  <text x="820" y="135" font-family="'Courier New', monospace" font-size="11" fill="#64748b">🎯 Dev Systems</text>
+  <text x="820" y="155" font-family="'Courier New', monospace" font-size="11" fill="#64748b">⏰ Real-time updates</text>
+  <text x="820" y="175" font-family="'Courier New', monospace" font-size="11" fill="#64748b">🔔 Notificações</text>
+  <rect x="820" y="200" width="140" height="4" fill="#06b6d4" opacity="0.3"/>
+  <text x="820" y="230" font-family="'Courier New', monospace" font-size="10" fill="#06b6d4" font-weight="bold">Status: Ativo</text>
+  <text x="820" y="250" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Tech: Python</text>
+  <text x="820" y="270" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Type: Scraper</text>
+  <text x="820" y="290" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">Loop: Contínuo</text>
 </svg>
 
 ---
 
-## 📊 Dashboard
+## 🛠️ Stack Tecnológico
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 30px 0;">
+<svg width="100%" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#06b6d4;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
 
-<div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid #0ea5e9; border-radius: 8px; padding: 20px; text-align: center;">
+  <rect width="1000" height="200" fill="url(#stackGrad)" stroke="#0ea5e9" stroke-width="2" opacity="0.6" rx="8"/>
 
-### 8+
-**Projetos**
+  <!-- Languages -->
+  <text x="30" y="35" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#0ea5e9">► Languages</text>
+  <text x="30" y="55" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">Python | JavaScript | Bash</text>
+  <text x="30" y="70" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">HTML/CSS | SQL</text>
 
-Iniciados em 2026
+  <!-- Frameworks -->
+  <text x="280" y="35" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#06b6d4">► Frameworks</text>
+  <text x="280" y="55" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">Express.js | Next.js | Flask</text>
+  <text x="280" y="70" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">React | Node.js</text>
 
-</div>
+  <!-- Databases -->
+  <text x="520" y="35" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#0ea5e9">► Databases</text>
+  <text x="520" y="55" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">MongoDB | Firebase | PostgreSQL</text>
+  <text x="520" y="70" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">Redis</text>
 
-<div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid #06b6d4; border-radius: 8px; padding: 20px; text-align: center;">
+  <!-- Tools & Platforms -->
+  <text x="30" y="110" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#06b6d4">► Tools & Platforms</text>
+  <text x="30" y="130" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">Git/GitHub/GitLab | Docker | Linux (Arch/Ubuntu) | Termux</text>
+  <text x="30" y="145" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">VS Code | Android Dev | AWS basics | CI/CD</text>
 
-### 5
-**Linguagens**
+  <!-- Specialties -->
+  <text x="30" y="175" font-family="'Courier New', monospace" font-size="11" fill="#7dd3fc" font-weight="bold">🎯 Especialidades: Automação • AI/ML • DevOps • Problem Solving • Security • Arquitetura</text>
+</svg>
 
-Python, JS, Bash, HTML, CSS
+---
 
-</div>
+## 📊 Estatísticas & Métricas
 
-<div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid #0ea5e9; border-radius: 8px; padding: 20px; text-align: center;">
+```
+┌─────────────────────────────────────────┐
+│  BUILDER METRICS (2026)                 │
+├─────────────────────────────────────────┤
+│                                         │
+│  📊 Projetos Iniciados:      8+         │
+│  🎯 Linguagens:              5          │
+│  💻 Frameworks:              6+         │
+│  📚 Em Aprendizado:          AI/ML/DevOps│
+│  🔥 Status:                  BUILDING   │
+│  ☕ Café Consumido:          ∞          │
+│                                         │
+└─────────────────────────────────────────┘
+```
 
-### 3+
-**Anos de Experiência**
-
-Desenvolvimento contínuo
-
-</div>
-
-<div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border: 1px solid #06b6d4; border-radius: 8px; padding: 20px; text-align: center;">
-
-### ∞
-**Paixão**
-
-Por Criar Soluções
-
-</div>
-
-</div>
+| Métrica | Valor | Status |
+|---------|-------|--------|
+| **Projetos Ativos** | 4 | ✅ Produção |
+| **Experiência** | 3+ anos | 📈 Crescendo |
+| **Linguagens** | Python, JS, Bash | 🔥 Fluente |
+| **Formação** | Técnico Dev Systems | 📚 Cursando |
+| **Foco Atual** | Full-stack + Automação | 🎯 Objetivo |
 
 ---
 
 ## 🎯 Roadmap 2026+
 
 ```
-Q1 2026  ◆ Consolidar full-stack development
-Q2 2026  ◆ Expandir JARVIS com IA/ML avançado
-Q3 2026  ◆ Experiência de mercado tech
-Q4 2026  ◆ Preparação para ADS (faculdade)
+2026 Q1  ▬▬▬▬▬  Consolidar full-stack development
+2026 Q2  ▬▬▬▬▬  Expandir JARVIS com IA/ML avançado  
+2026 Q3  ▬▬▬▬▬  Experiência profissional no mercado tech
+2026 Q4  ▬▬▬▬▬  Preparação para ADS (faculdade)
 
-2027     ◆ Produtos SaaS escaláveis
-2027     ◆ Comunidade tech local
-2027+    ◆ IA integrada nos projetos
+2027+    ▬▬▬▬▬  Produtos SaaS escaláveis
+2027+    ▬▬▬▬▬  Comunidade tech local
+2027+    ▬▬▬▬▬  IA integrada em todos os projetos
 ```
+
+---
+
+## 💼 Experiência Profissional
+
+<svg width="100%" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="expGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0.05" />
+    </linearGradient>
+    <linearGradient id="expGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+
+  <!-- GRU Experience -->
+  <rect x="20" y="10" width="460" height="120" fill="url(#expGrad1)" stroke="#0ea5e9" stroke-width="2" rx="6"/>
+  <text x="40" y="35" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#0ea5e9">💼 Responsável por Backlogs | Aeroporto GRU</text>
+  <text x="40" y="55" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">Estágio Atual | 2025 - Presente</text>
+  <text x="40" y="73" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">🔧 Automação de processos críticos</text>
+  <text x="40" y="87" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">🐍 Python & Bash  •  ⚡ Otimização de fluxos  •  👥 Mentoria técnica</text>
+  <text x="40" y="101" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">📊 Impacto direto em operações aeroportuárias</text>
+
+  <!-- NOC Experience -->
+  <rect x="520" y="10" width="460" height="120" fill="url(#expGrad2)" stroke="#06b6d4" stroke-width="2" rx="6"/>
+  <text x="540" y="35" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#06b6d4">🌐 NOC (Network Operations Center)</text>
+  <text x="540" y="55" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1">Programa de Desenvolvimento Técnico | CMTI</text>
+  <text x="540" y="73" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">🎯 Reconhecimento e tratamento de chamados</text>
+  <text x="540" y="87" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">👨‍🏫 Mentoria de colegas  •  📚 Desenvolvimento acelerado</text>
+  <text x="540" y="101" font-family="'Courier New', monospace" font-size="10" fill="#7dd3fc">🌐 Infraestrutura e operações de sistemas</text>
+</svg>
+
+---
+
+## 🎓 Formação & Aprendizado
+
+| Status | Descrição | Progresso |
+|--------|-----------|-----------|
+| 📚 **Cursando** | Técnico em Desenvolvimento de Sistemas | 80% |
+| 🌍 **Avançado** | Inglês (Speaking + Writing) | Fluente |
+| 🌐 **Básico** | Espanhol | Em desenvolvimento |
+| 🎖️ **Cursando** | Treinamento Militar | Ativo |
+| ⭐ **Futuro** | Oficial do Pelotão de Elite Chacal | Preparação |
+| 📖 **Sempre** | Aprendizado contínuo (AI/ML/DevOps/Web3) | ∞ |
 
 ---
 
@@ -295,39 +239,70 @@ Q4 2026  ◆ Preparação para ADS (faculdade)
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-HAZURE222.COM-0ea5e9?style=for-the-badge&labelColor=0f172a)](https://hazure222.com)
-[![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-RAPHAELDIAS-0A66C2?style=for-the-badge&labelColor=0f172a)](https://linkedin.com/in/raphaeldias)
-[![Instagram](https://img.shields.io/badge/📸%20Instagram-036DONASCIMENTO-E4405F?style=for-the-badge&labelColor=0f172a)](https://instagram.com/036donascimento)
-[![GitHub](https://img.shields.io/badge/💻%20GitHub-HAZURE222-181717?style=for-the-badge&labelColor=0f172a)](https://github.com/hazure222)
+[![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-HAZURE222.COM-0ea5e9?style=for-the-badge&logoColor=white)](https://hazure222.com)
+[![LinkedIn](https://img.shields.io/badge/💼_LINKEDIN-RAPHAELDIAS-0A66C2?style=for-the-badge&logoColor=white)](https://linkedin.com/in/raphaeldias)
+[![Instagram](https://img.shields.io/badge/📸_INSTAGRAM-036DONASCIMENTO-E4405F?style=for-the-badge&logoColor=white)](https://instagram.com/036donascimento)
+[![GitHub](https://img.shields.io/badge/💻_GITHUB-HAZURE222-181717?style=for-the-badge&logoColor=white)](https://github.com/hazure222)
 
 </div>
 
 ---
 
-## 💡 Filosofia
+## 💡 Filosofia & Valores
 
 > **"A melhor forma de prever o futuro é criá-lo."**
 
-Tecnologia é um meio, não um fim. Meu objetivo é ser um **builder versátil** que entende não apenas o **COMO** fazer, mas o **POR QUÊ** fazer.
+Tecnologia é um **meio**, não um **fim**. Meu objetivo é ser um **builder versátil** que entende não apenas o **COMO** fazer, mas o **POR QUÊ** fazer.
+
+### Princípios que Me Guiam:
+
+```
+🧠 Autodidata        → Amor por aprender continuamente
+💡 Problem Solver    → Elegância nas soluções
+🤝 Colaborativo      → Mentoria e crescimento mútuo
+🎯 Focado            → Qualidade > Quantidade
+📚 Perpétuo Aprendiz → Curiosidade sem limites
+🔐 Security-Aware    → Código seguro é código bom
+👾 Tech Enthusiast   → Apaixonado por inovação
+```
+
+---
+
+## 📈 Inspirações & Influências
+
+- **Código Aberto** → Comunidade, colaboração, conhecimento compartilhado
+- **Startup Mindset** → Visão clara, execução focada, iteração rápida
+- **Clean Code** → Legibilidade, manutenibilidade, elegância
+- **DevOps Culture** → Automação, confiabilidade, escalabilidade
+- **Lifelong Learning** → Curiosidade, adaptação, crescimento
 
 ---
 
 <div align="center">
 
-### 🔥 **ALWAYS BUILDING • ALWAYS EVOLVING** 🔥
+<svg width="100%" height="100" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
 
-```
-┌─ Status: DEVELOPING ─────────────────┐
-│                                      │
-│  "One step closer to the future"    │
-│                                      │
-│  Made with 💻 and ☕ by Raphael      │
-└──────────────────────────────────────┘
-```
+  <rect width="1000" height="100" fill="url(#footerGrad)" stroke="#0ea5e9" stroke-width="1" opacity="0.5" rx="8"/>
 
-Se você quer criar algo **incrível**, vamos conversar! 🚀
+  <text x="500" y="25" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#0ea5e9" text-anchor="middle">🔥 ALWAYS BUILDING • ALWAYS EVOLVING 🔥</text>
 
-**Last Updated:** 2026-08-20  
-**Version:** 2.0 (Modern Edition)
+  <text x="500" y="50" font-family="'Courier New', monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">"One step closer to a fully autonomous system" — JARVIS Protocol v2.0</text>
+
+  <text x="500" y="70" font-family="'Courier New', monospace" font-size="11" fill="#cbd5e1" text-anchor="middle">Made with 💻 and ☕ by Raphael Dias</text>
+
+  <text x="500" y="88" font-family="'Courier New', monospace" font-size="10" fill="#64748b" text-anchor="middle">Last Updated: 2026-08-20 • Version 2.0 (Modern Edition - No CSS)</text>
+</svg>
+
+---
+
+### 🚀 Se você quer criar algo **incrível**, vamos conversar!
+
+**Status:** Sempre aberto para novas oportunidades, parcerias e desafios interessantes.
 
 </div>
